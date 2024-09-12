@@ -1,0 +1,20 @@
+Lista de comandos do GIT
+
+-- Definir usuario e E-mail (Só faz primeira vez que usa o pc)
+git config --global user.name "Seu nome Completo"
+
+git config --global user.email seumelhor@email.com
+-- Cria ma pasta no terminal
+mkdir nome-da-pasta
+
+-- Entra na pasta criada
+cd nome-da-pasta
+
+-- Transforma a pasta em repositório (só faz 1 vez)
+git init
+
+-- Ver status da pasta/repositorio
+git status
+
+-- Adiciona os arquivos para serem versionados
+git add .
